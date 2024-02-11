@@ -1,129 +1,50 @@
 *{
-    margin:0px;
-    padding:0px;
-}
-.header{
-    font-size: 100px;
-    background-color: pink;
-    color:black;
-    display:flex;
-    justify-content: center;
-    gap:400px;
-}
-.outergrid{
-    height:1300px;
-    display: flex;
-    justify-content: center;
+    margin:0;
+    padding:0;
+
 }
 
 
-
-.grid{
-    height: 924px;
-    width: 924px;
-    display: flex;
-    flex-wrap: wrap;
-    margin-top: 200px;
-    margin-bottom: 200px;
-    border: 0.5px solid black;
-
-   
-}
-
-.innergrid{
-    height:300px;
-    width:300px;
-    border: 0.5px solid black;
-}
-/* #g1{
-    background-color: aqua;
-}
-#g2{
-    background-color: pink;
-}
-#g3{
-    background-color: purple;
-}
-#g4{
-    background-color: red;
-}
-#g5{
-    background-color: green;
-}
-#g6{
-    background-color: blue;
-}
-#g7{
-    background-color: brown;
-}
-#g8{
-    background-color: yellow;
-}
-#g9{
-    background-color: hotpink;
-} */
-
-.score{
-    font-size: 100px;
-    background-color: pink;
-    color:black;
-    display: flex;
-    justify-content: center;
-    gap: 400px;
-
-}
-.rectangle{
-    height:308px;
-    width:2772px;
-    margin-bottom: 200px;
-    margin-top: 200px;
-    display: flex;
-    flex-wrap: wrap;
-    border: 0.5px solid black;
+#header{
+    text-align: center; 
+    background-color: #081b31;
+    color:whitesmoke;
+    font-size: large;
+    height:4rem;
+    line-height: 4rem;
+    margin-bottom: 100px;
+    
     
 }
-.outerrect{
+.main{
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
+    gap: 5rem;
+    
 }
-.innerrect{
+.image{
+    height:310px;
+    width:310px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    margin:10px;
+   
+
+}
+.image:hover{
+    cursor: pointer;
+    background-color: #081b31;
+}
+img{
     height:300px;
     width:300px;
-    border: 0.5px solid black;
+    object-fit: fill;
+    border-radius: 20px;
+    
+
 }
-#r1{
-    background-image: url("p1.jpeg");
-    background-size: cover;
-}
-#r2{
-    background-image: url("p2.jpeg");
-    background-size: cover;
-}
-#r3{
-    background-image: url("p3.jpeg");
-    background-size: cover;
-}
-#r4{
-    background-image: url("p4.jpeg");
-    background-size: cover;
-}
-#r5{
-    background-image: url("p5.jpeg");
-    background-size: cover;
-}
-#r6{
-    background-image: url("p6.jpeg");
-    background-size: cover;
-}
-#r7{
-    background-image: url("p7.jpeg");
-    background-size: cover;
-}
-#r8{
-    background-image: url("p8.jpeg");
-    background-size: cover;
-}
-#r9{
-    background-image: url("p9.jpeg");
-    background-size: cover;
+body{
+    background-color: lightcyan;
 }
